@@ -5,18 +5,18 @@ const Home = () => {
         <div className="position-relative">
           <h1>
             <span>
-              <span className="animated-layer">
-                Hello<span>.</span>
-              </span>
+              <span className="animated-layer">My Name</span>
             </span>
             <span className="position-relative">
-              <span className="animated-layer">I am</span>
+              {/* <span className="animated-layer">Name Is</span> */}
               <span className="intro animated-layer">
-                Full Stack Developer with 4 years experience.
+                Front-end Developer with 7 years experience based in London
               </span>
             </span>
             <span>
-              <span className="animated-layer">Bilal</span>
+              <span className="animated-layer">
+                Is Mak<span>.</span>
+              </span>
             </span>
           </h1>
         </div>

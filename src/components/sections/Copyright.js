@@ -7,40 +7,35 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        {/* <span>© {new Date().getFullYear()}</span> */}
+        <span>© {new Date().getFullYear()} Aamer Mak</span>
         <span>
-          © {new Date().getFullYear()} -{' '}
-          <a target="_blank" href="#">
-            Bilal Bin Yar
+          Designed By{' '}
+          <a
+            target="_blank"
+            href="https://themeforest.net/user/Codeefly/portfolio"
+          >
+            Codeefly
           </a>
         </span>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/bilalbinyar/" target="_blank">
-              <i class="fa-brands fa-linkedin-in" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/bilalbinyaar" target="_blank">
+            <a href="#">
               <i className="fa-brands fa-github" />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/@BilalBinYar" target="_blank">
-              <i class="fa-brands fa-youtube" />
+            <a href="#">
+              <i className="fa-brands fa-twitter" />
             </a>
           </li>
           <li>
-            <a
-              href="https://open.spotify.com/artist/4tcrYMxcZ4z2oAh68Cq9zq?si=4K_x8pp8TfaWLOiZyUp30w"
-              target="_blank"
-            >
-              <i class="fa-brands fa-spotify" />
+            <a href="#">
+              <i className="fa-brands fa-dribbble" />
             </a>
           </li>
           <li>
-            <a href="https://wa.me/923245187873" target="_blank">
-              <i class="fa-brands fa-whatsapp" />
+            <a href="#">
+              <i className="fa-brands fa-facebook" />
             </a>
           </li>
         </ul>

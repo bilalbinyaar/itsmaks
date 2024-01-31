@@ -1,5 +1,5 @@
 {
-  "name": "bilals-react",
+  "name": "personal-portfolio-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "jquery": "^3.6.3",
     "jquery-mousewheel": "^3.1.13",
     "malihu-custom-scrollbar-plugin": "^3.1.5",
-    "next": "^13.1.5",
+    "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^9.0.1",

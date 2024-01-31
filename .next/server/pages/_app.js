@@ -44,18 +44,90 @@ const colors = [
     {
         id: 1,
         name: "yellow"
+    },
+    {
+        id: 2,
+        name: "green"
+    },
+    {
+        id: 3,
+        name: "red"
+    },
+    {
+        id: 4,
+        name: "blue"
+    },
+    {
+        id: 5,
+        name: "orange"
+    },
+    {
+        id: 6,
+        name: "yellowgreen"
+    },
+    {
+        id: 7,
+        name: "pink"
+    },
+    {
+        id: 8,
+        name: "goldenrod"
     }
 ];
 const Switcher = ()=>{
     const [color, setColor] = (0,external_react_.useState)("yellow");
     const [toggle, setToggle] = (0,external_react_.useState)(false);
-    return /*#__PURE__*/ jsx_runtime_.jsx(external_react_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
-            children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: `css/skins/${color}.css`
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                    rel: "stylesheet",
+                    href: `css/skins/${color}.css`
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                id: "switcher",
+                className: toggle ? "open" : "close",
+                style: {
+                    display: "block"
+                },
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "content-switcher",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                            children: "COLOR SWITCHER"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                            children: colors.map((color)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "#",
+                                        title: color.name,
+                                        className: "color",
+                                        onClick: ()=>setColor(color.name),
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                            src: `assets/styleswitcher/${color.name}.png`,
+                                            alt: color.name
+                                        })
+                                    }, color.id)
+                                }))
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            id: "hideSwitcher",
+                            onClick: ()=>setToggle(false),
+                            children: "\xd7"
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                id: "showSwitcher",
+                className: `styleSecondColor ${toggle ? "close" : "open"}`,
+                onClick: ()=>setToggle(true),
+                children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                    className: "fa fa-cog"
+                })
             })
-        })
+        ]
     });
 };
 /* harmony default export */ const components_Switcher = (Switcher);
@@ -67,7 +139,7 @@ const SalimovHead = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                children: "Bilal's - Personal Portfolio"
+                children: "Aamer Mak - Personal Portfolio"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                 charSet: "utf-8"
@@ -125,7 +197,7 @@ const SalimovHead = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("link", {
                 rel: "icon",
                 type: "image/x-icon",
-                href: "assets/favicon.ico"
+                href: "/assets/favicon.ico"
             })
         ]
     });

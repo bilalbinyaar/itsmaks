@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +92 324 5187873
+              +216 21 184 010
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -31,7 +31,7 @@ const Contact = () => {
             <i className="fa fa-location-dot" />
             <p>
               <span className="small-text">address</span>
-              Islamabad, Pakistan
+              London, England
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -42,44 +42,33 @@ const Contact = () => {
             <i className="fa fa-envelope" />
             <p>
               <span className="small-text">email</span>
-              bilalbinyaar@gmail.com
+              work.makh@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
             <i className="fa fa-share-nodes" />
-            <span className="small-text">Find me</span>
+            <span className="small-text">follow me</span>
             <ul className="social">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/bilalbinyar/"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-linkedin-in" />
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/bilalbinyaar" target="_blank">
+                <a href="#">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/@BilalBinYar" target="_blank">
-                  <i class="fa-brands fa-youtube" />
+                <a href="#">
+                  <i className="fa-brands fa-twitter" />
                 </a>
               </li>
               <li>
-                <a
-                  href="https://open.spotify.com/artist/4tcrYMxcZ4z2oAh68Cq9zq?si=4K_x8pp8TfaWLOiZyUp30w"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-spotify" />
+                <a href="#">
+                  <i className="fa-brands fa-dribbble" />
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/923245187873" target="_blank">
-                  <i class="fa-brands fa-whatsapp" />
+                <a href="#">
+                  <i className="fa-brands fa-facebook" />
                 </a>
               </li>
             </ul>
@@ -88,11 +77,11 @@ const Contact = () => {
         </div>
       </div>
       {/* CONTACTS ENDS */}
-      <img
+      {/* <img
         alt=""
         className="separator hide-mobile"
         src="assets/separator.png"
-      />
+      /> */}
     </section>
   );
 };

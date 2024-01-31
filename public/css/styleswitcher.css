@@ -16,7 +16,6 @@
   right: initial;
   margin-right: 0;
   margin-left: -500px;
-
   border-radius: 0 0 5px 0;
 }
 .rtl #switcher {
@@ -63,7 +62,7 @@
 
 #switcher ul li a img {
   max-width: 40px;
-  border: 2px solid #25352b;
+  border: 2px solid #222;
   border-radius: 50%;
 }
 
@@ -76,7 +75,7 @@
   background: #444;
   border-left: 0;
   font-size: 18px;
-  display: block;
+  /* display: block; */
   border-bottom-left-radius: 3px;
   border-top-left-radius: 4px;
   padding: 10px 16px 10px 14px;
@@ -86,6 +85,7 @@
   border-right: 0;
   border-radius: 0 4px 4px 0;
   padding: 10px 16px 10px 14px;
+  display: none !important;
 }
 .rtl #showSwitcher {
   left: 0;
@@ -152,7 +152,8 @@
   font-size: 13px;
   line-height: 13px;
   outline: none;
-  /* -webkit-appearance: none; */
+
+  -webkit-appearance: none;
   cursor: pointer;
 }
 #switcher p.separator {

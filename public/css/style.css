@@ -1,43 +1,3 @@
-/*
-Template Name: Salimov - Horizontal Personal Portfolio
-Author: Codeefly
-Author URI: http://themeforest.net/user/Codeefly
-Description: Salimov - Horizontal Personal Portfolio
-Version: 1.0
-*/
-
-/*------------------------------------------------------------------
-[Table of contents]
-      	+ General
-		  - Miscellaneous
-		  - Preloader
-		  - Scroll Bar
-		  - Title Section
-		  - Buttons
-        - Header
-        + Sections
-          - Home
-		  + About
-		  	- Infos
-            - Skills
-            - Resume
-          - Facts
-          - Portfolio
-		  - Clients
-		  - Contact
-		  - Testimonials
-		  - Blog
-		  - Copyright
-		- Blog Page
-        - Responsive Design Styles
-  
--------------------------------------------------------------------*/
-
-/* [ GENERAL ] */
-/*================================================== */
-
-/*** Miscellaneous ***/
-
 html {
   height: 100%;
 }
@@ -46,8 +6,7 @@ body {
   height: 100%;
   font-family: 'Livvic', sans-serif;
   font-size: 18px;
-  background-color: #0c1e13;
-  /* background-color: #0b0b0b; */
+  background-color: #0b0b0b;
   margin: 0;
   color: #fff;
 }
@@ -68,8 +27,7 @@ section {
 }
 
 .main-section {
-  background-color: #0c1e13;
-  /* background-color: #0b0b0b; */
+  background-color: #0b0b0b;
 }
 
 .img-container {
@@ -85,8 +43,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0c1e13;
-  /* background: #0b0b0b; */
+  background: #0b0b0b;
   z-index: 2;
   transition: all 1s ease;
 }
@@ -136,7 +93,7 @@ ul {
   width: 50%;
   height: 100%;
   z-index: -1;
-  background-color: #25352b;
+  background-color: #222;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -370,7 +327,7 @@ ul {
   cursor: pointer;
   text-decoration: none;
   user-select: none;
-  background-color: #25352b;
+  background-color: #222;
 }
 
 .custom-btn span {
@@ -570,7 +527,7 @@ header .mobile-menu {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: #333;
-  text-shadow: 8px 8px #fff, 20px 20px #25352b;
+  text-shadow: 8px 8px #fff, 20px 20px #222;
 }
 
 .home > div > div .intro {
@@ -619,11 +576,10 @@ header .mobile-menu {
 
 .about img.my-photo {
   width: 380px;
-  height: 470px;
+  height: 440px;
   object-fit: cover;
   object-position: center;
   border-radius: 24px;
-  filter: grayscale(77%);
 }
 
 .about h2 {
@@ -727,7 +683,7 @@ header .mobile-menu {
 }
 
 .about .skills > div > div:not(:first-child) {
-  margin-left: 65px;
+  margin-left: 80px;
 }
 
 .about .skills > div > div > div {
@@ -741,11 +697,11 @@ header .mobile-menu {
 }
 
 .about .skills > div > div > div span {
-  width: 72px;
-  height: 72px;
+  width: 100px;
+  height: 100px;
   display: block;
-  background-color: #25352b;
-  border-radius: 12px;
+  background-color: #222;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -794,7 +750,7 @@ header .mobile-menu {
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: #25352b;
+  background: #222;
 }
 
 .about .timeline ol li:first-child {
@@ -820,7 +776,6 @@ header .mobile-menu {
   height: 12px;
   transform: translateY(-50%) rotate(45deg);
   border-radius: 3px;
-  z-index: 1;
 }
 
 .about .timeline ol li > div {
@@ -829,7 +784,7 @@ header .mobile-menu {
   width: 300px;
   font-size: 1rem;
   white-space: normal;
-  background: #25352b;
+  background: #222;
   border-radius: 20px;
 }
 
@@ -847,7 +802,7 @@ header .mobile-menu {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 37px;
+  padding: 40px;
   overflow: hidden;
 }
 
@@ -905,7 +860,7 @@ header .mobile-menu {
 .about .timeline ol li:nth-child(odd) > div::before {
   top: 100%;
   border-width: 16px;
-  border-color: #25352b transparent transparent transparent;
+  border-color: #222 transparent transparent transparent;
 }
 
 .about .timeline ol li:nth-child(even) > div {
@@ -915,7 +870,7 @@ header .mobile-menu {
 .about .timeline ol li:nth-child(even) > div::before {
   top: -32px;
   border-width: 16px;
-  border-color: transparent transparent transparent #25352b;
+  border-color: transparent transparent transparent #222;
   transform: rotate(-90deg);
 }
 
@@ -963,8 +918,7 @@ header .mobile-menu {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* background: rgba(0, 0, 0, 0.6); */
-  background-color: #25352b;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 40px;
   transform: rotate(45deg);
 }
@@ -1093,8 +1047,8 @@ header .mobile-menu {
 }
 
 .portfolio .single-item .main-content {
-  width: 600px;
-  height: 420px;
+  width: 650px;
+  height: 450px;
 }
 
 .videocontainer {
@@ -1200,7 +1154,7 @@ header .mobile-menu {
   position: relative;
   min-width: 320px;
   min-height: 164px;
-  background-color: #25352b;
+  background-color: #222;
 }
 
 .contact .boxes > div > div:not(:last-child) {
@@ -1218,9 +1172,8 @@ header .mobile-menu {
   top: -37px;
   width: 74px;
   height: 74px;
-  background: #25352b;
-  border: 3px solid #0c1e13;
-  /* border: 3px solid #0b0b0b; */
+  background: #222;
+  border: 3px solid #0b0b0b;
 }
 
 .contact .boxes > div > div p {
@@ -1258,7 +1211,7 @@ header .mobile-menu {
 }
 
 .contact .separator {
-  transform: translateX(calc(100% + 149px));
+  transform: translateX(calc(100% + 150px));
 }
 
 /*** CLIENTS SECTION ***/
@@ -1318,19 +1271,16 @@ header .mobile-menu {
 
 .clients .swiper-slide img {
   user-select: none;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
 }
 
 .clients .swiper-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: #25352b; */
-  /* height: 120px; */
+  background: rgba(0, 0, 0, 0.6);
+  height: 120px;
   width: 250px;
+  border-radius: 20px;
 }
 
 .clients .swiper-slide > div:first-child {
@@ -1382,11 +1332,11 @@ header .mobile-menu {
 }
 
 .testimonials .testimonials-container .quote-container:not(:first-child) {
-  margin-left: 70px;
+  margin-left: 90px;
 }
 
 .testimonials .quote-container {
-  padding: 30px;
+  padding: 40px;
 }
 
 .testimonials .quote-container > div {
@@ -1407,8 +1357,8 @@ header .mobile-menu {
 
 .testimonials .quote-container > div p {
   margin: 0;
-  background: #25352b;
-  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -1448,7 +1398,7 @@ header .mobile-menu {
   bottom: -60px;
   right: -60px;
   border-radius: 50%;
-  border: 4px solid #25352b;
+  border: 4px solid #222;
 }
 
 /*** BLOG SECTION ***/
@@ -1468,7 +1418,7 @@ header .mobile-menu {
 .blog .latestposts > div {
   position: relative;
   border-radius: 20px;
-  /* background: #25352b; */
+  background: #222;
 }
 
 .blog .latestposts > div:not(:first-child) {
@@ -1505,7 +1455,7 @@ header .mobile-menu {
 .blog .latestposts a .content {
   padding: 35px 30px 30px;
   position: relative;
-  background-color: #25352b;
+  background-color: #222;
   border-radius: 0 0 20px 20px;
   max-width: 360px;
 }
@@ -1554,7 +1504,7 @@ header .mobile-menu {
 /*** COPYRIGHT SECTION ***/
 
 .copyright {
-  background-color: #25352b;
+  background-color: #222;
   display: flex;
 }
 
@@ -1628,7 +1578,7 @@ header .mobile-menu {
   position: relative;
   border-radius: 20px;
   height: 100%;
-  background-color: #25352b;
+  background-color: #222;
 }
 
 .blog-page .blog-content .post:not(:first-child) {
@@ -1665,7 +1615,7 @@ header .mobile-menu {
 .blog-page .blog-content .post a .content {
   padding: 35px 30px 30px;
   position: relative;
-  background-color: #25352b;
+  background-color: #222;
   border-radius: 0 0 20px 20px;
 }
 
@@ -1721,8 +1671,8 @@ header .mobile-menu {
 
 .blog-page .page-link {
   color: #fff;
-  background-color: #25352b;
-  border: 1px solid #25352b;
+  background-color: #222;
+  border: 1px solid #222;
   padding: 0;
   margin: 0 15px;
   border-radius: 50% !important;
@@ -1734,7 +1684,7 @@ header .mobile-menu {
 }
 
 .page-item.active .page-link {
-  border: 1px solid #25352b;
+  border: 1px solid #222;
 }
 
 .blog-page .page-link:focus,
@@ -1765,6 +1715,18 @@ header .mobile-menu {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+
+.about-desc {
+  width: 580px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.about-desc p {
+  text-align: justify;
+  line-height: 1.35;
+  font-size: medium;
 }
 
 /* [ RESPONSIVE ] */
@@ -1822,7 +1784,7 @@ header .mobile-menu {
   }
 
   .separator-mobile-up {
-    transform: translateY(-97%);
+    transform: translateY(-100%);
   }
 
   .about .infos ul li > span > span {
@@ -1863,7 +1825,7 @@ header .mobile-menu {
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    background: #25352b;
+    background: #222;
   }
 
   #menuToggle input {
@@ -1923,7 +1885,7 @@ header .mobile-menu {
     height: 100%;
     margin: 0;
     padding-top: 60px;
-    background-color: #25352b;
+    background-color: #222;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0 0;
     transform: translate(-100%, 0);
@@ -2113,7 +2075,7 @@ header .mobile-menu {
     top: 100%;
     transform: translateX(-50%);
     border: none;
-    border-left: 4px solid #25352b;
+    border-left: 4px solid #222;
     height: 50px;
   }
 
@@ -2548,7 +2510,7 @@ header .mobile-menu {
     max-width: 80px;
     bottom: -40px;
     right: 30px;
-    border: 2px solid #25352b;
+    border: 2px solid #222;
   }
 
   .testimonials .quote-container > div p span.person {
@@ -2589,5 +2551,14 @@ header .mobile-menu {
 
   .copyright {
     padding: 20px 0 30px;
+  }
+
+  .about-desc {
+    width: unset;
+    margin-left: 0;
+  }
+
+  .about-desc p {
+    text-align: center;
   }
 }

@@ -21,9 +21,9 @@ const Header = () => {
               <li>
                 <span id="contact-link">Contact</span>
               </li>
-              <li>
-                <span id="blog-link">Certifications</span>
-              </li>
+              {/* <li>
+                <span id="blog-link">Blog</span>
+              </li> */}
             </ul>
           </nav>
         </div>
@@ -31,7 +31,7 @@ const Header = () => {
         {/* FREELANCE STARTS */}
         <div className="mail">
           <p>
-            Email :<span> bilalbinyaar@gmail.com</span>
+            Email :<span> work.makh@gmail.com</span>
           </p>
         </div>
         {/* FREELANCE ENDS */}
@@ -65,11 +65,11 @@ const Header = () => {
                 <span>Contact</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#blog">
-                <span>Certifications</span>
+                <span>Blog</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
