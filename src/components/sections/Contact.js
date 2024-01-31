@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +1 (786) 220 3258
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -31,7 +31,7 @@ const Contact = () => {
             <i className="fa fa-location-dot" />
             <p>
               <span className="small-text">address</span>
-              London, England
+              Brighton, CO
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}

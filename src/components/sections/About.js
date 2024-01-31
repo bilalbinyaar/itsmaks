@@ -32,7 +32,7 @@ const About = () => {
           </h2>
 
           <div className="about-desc">
-            <p>
+            <p className="animated-layer fade-in-up-animation fadeInUp wow">
               "I have 5+ years of experience as a Web developer with strong
               command over creating custom websites/themes from scratch using
               HTML5, CSS3, JavaScript, jQuery. And for backend PHP and MySQL. I

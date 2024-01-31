@@ -7,16 +7,8 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Aamer Mak</span>
-        <span>
-          Designed By{' '}
-          <a
-            target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
-          >
-            Codeefly
-          </a>
-        </span>
+        <span>{new Date().getFullYear()} © Aamer Mak</span>
+
         <ul>
           <li>
             <a href="#">
