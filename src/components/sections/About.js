@@ -323,15 +323,17 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Project Manager</h4>
+                  <h4>TING</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2019 - Now</span>
+                    <i className="fa fa-share" />
+                    <a to="https://blog.ting.com/" target="_blank">
+                      <span>blog.ting.com</span>
+                    </a>
                   </p>
-                  <p>
+                  {/* <p>
                     <i className="fa-regular fa-building" />
                     <span>Adobe Company</span>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </li>
@@ -340,14 +342,20 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Team Leader</h4>
-                  <p>
+                  <h4>Redesign</h4>
+                  {/* <p>
                     <i className="fa-regular fa-clock" />
                     <span>2015 - 2019</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
                     <span>Twitter Inc</span>
+                  </p> */}
+                  <p>
+                    <i className="fa fa-share" />
+                    <a to="redesign.co" target="_blank">
+                      <span>redesign.co</span>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -357,14 +365,20 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
-                  <p>
+                  <h4>Your Dutch Media</h4>
+                  {/* <p>
                     <i className="fa-regular fa-clock" />
                     <span>2010 - 2015</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
                     <span>Facebook</span>
+                  </p> */}
+                  <p>
+                    <i className="fa fa-share" />
+                    <a to="https://yourdutchmedia.nl/" target="_blank">
+                      <span>yourdutchmedia.nl</span>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -374,21 +388,27 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Master Degree</h4>
-                  <p>
+                  <h4>Bayshore Home Care</h4>
+                  {/* <p>
                     <i className="fa-regular fa-clock" />
                     <span>2003</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />
                     <span>London University</span>
+                  </p> */}
+                  <p>
+                    <i className="fa fa-share" />
+                    <a to="https://www.bayshorehomecare.com/" target="_blank">
+                      <span>www.bayshorehomecare.com</span>
+                    </a>
                   </p>
                 </div>
               </div>
             </li>
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
-            <li>
+            {/* <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
                   <h4>Bachelor Degree</h4>
@@ -402,7 +422,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </li>
+            </li> */}
             {/* TIMELINE ITEM ENDS */}
             <li />
           </ol>
