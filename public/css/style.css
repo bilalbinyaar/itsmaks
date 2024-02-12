@@ -783,7 +783,7 @@ header .mobile-menu {
   left: 18px;
   width: 300px;
   font-size: 1rem;
-  white-space: normal;
+  /* white-space: normal; */
   background: #222;
   border-radius: 20px;
 }
@@ -845,7 +845,7 @@ header .mobile-menu {
   color: #eee;
   font-size: 18px;
   font-weight: 500;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .about .timeline ol li > div > div > p:last-child {

@@ -387,7 +387,7 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
-                <div className="education">
+                <div className="experience">
                   <h4>Bayshore Home Care</h4>
                   {/* <p>
                     <i className="fa-regular fa-clock" />
@@ -400,7 +400,7 @@ const About = () => {
                   <p>
                     <i className="fa fa-share" />
                     <a to="https://www.bayshorehomecare.com/" target="_blank">
-                      <span>www.bayshorehomecare.com</span>
+                      <span>bayshorehomecare.com</span>
                     </a>
                   </p>
                 </div>
